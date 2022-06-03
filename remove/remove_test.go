@@ -14,11 +14,11 @@ func TestRemove(t *testing.T) {
 	mapa := map[sorting.CopyFiles]int{}
 	mapa[sorting.CopyFiles{
 		Name: "file1.txt",
-		Path: "remove/file1.txt",
+		Path: "/remove/file1.txt",
 	}] = 0
 	mapa[sorting.CopyFiles{
 		Name: "file1.txt",
-		Path: "remove/testDir/file1.txt",
+		Path: "/remove/testDir/file1.txt",
 	}] = 1
 
 	tests := []struct {
