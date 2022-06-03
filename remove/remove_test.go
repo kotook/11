@@ -14,13 +14,13 @@ func TestRemove(t *testing.T) {
 	mapa := map[sorting.CopyFiles]int{}
 	mapa[sorting.CopyFiles{
 		Name: "file1",
-		Size: 0,
-		Path: "https://github.com/kotook/11/blob/98460e3fa0b22f2d32c099e6e376009988aecb74/remove/file1.txt",
+		Size: 2 Bytes,
+		Path: "https://github.com/kotook/11/blob/56d3fb8ded6f50c482fb8fb5fc98dbfa34ab081d/remove/file1.txt",
 	}] = 0
 	mapa[sorting.CopyFiles{
 		Name: "file1",
-		Size: 0,
-		Path: "https://github.com/kotook/11/blob/925511b0d850b4b64a762c7a4ea495e4df857f15/remove/testDir/file1.txt",
+		Size: 2 Bytes,
+		Path: "https://github.com/kotook/11/blob/56d3fb8ded6f50c482fb8fb5fc98dbfa34ab081d/remove/testDir/file1.txt",
 	}] = 1
 
 	tests := []struct {
