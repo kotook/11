@@ -62,18 +62,3 @@ func Remove(duplicateAmount map[sorting.CopyFiles]int, yes string) (err error) {
 	}
 	return nil
 }
-
-/*
-remove.go:5:2: `github.com/sirupsen/logrus` is in the blacklist: logging is allowed only by logutils.Log (depguard)
-        log "github.com/sirupsen/logrus"
-        ^
-remove.go:26:4: unnecessaryBlock: case statement doesn't require a block statement (gocritic)
-                        {
-                        ^
-remove.go:38:4: unnecessaryBlock: case statement doesn't require a block statement (gocritic)
-                        {
-                        ^
-remove.go:44:4: unnecessaryBlock: case statement doesn't require a block statement (gocritic)
-                        {
-
-*/
