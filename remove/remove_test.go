@@ -15,7 +15,7 @@ func TestRemove(t *testing.T) {
 	mapa[sorting.CopyFiles{
 		Name: "file1",
 		Size: 0,
-		Path: "/testDir/file1",
+		Path: "/remove/testDir/file1",
 	}] = 0
 	mapa[sorting.CopyFiles{
 		Name: "file1",
