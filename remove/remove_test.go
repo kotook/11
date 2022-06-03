@@ -15,12 +15,12 @@ func TestRemove(t *testing.T) {
 	mapa[sorting.CopyFiles{
 		Name: "file1",
 		Size: 0,
-		Path: "/home/anton/projects/golang-3/hw3/duplicateWithTesting/remove/testDir/file1",
+		Path: "/testDir/file1",
 	}] = 0
 	mapa[sorting.CopyFiles{
 		Name: "file1",
 		Size: 0,
-		Path: "/home/anton/projects/golang-3/hw3/duplicateWithTesting/remove/file1",
+		Path: "/remove/file1",
 	}] = 1
 
 	tests := []struct {
