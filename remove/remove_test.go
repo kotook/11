@@ -26,7 +26,7 @@ func TestRemove(t *testing.T) {
 		args    args
 		wantErr bool
 	}{
-		{"file1",
+		{"file1.txt",
 			args{
 				duplicateAmount: mapa,
 				yes:             "Y",
